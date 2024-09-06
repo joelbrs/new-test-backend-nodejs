@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: anotaai
+  profiles:
+    active: dev
+
+amqp:
+  queues:
+    catalog:
+      name: catalog-emit
